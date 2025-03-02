@@ -65,12 +65,12 @@ main {
 
 .weather-app-icon {
   font-size: 50px;
-  margin-top: 22px;
+  margin-top: 12px;
   margin-left: 160px;
 }
 
 .weather-app-temperature-value {
-  font-size: 88px;
+  font-size: 80px;
   font-weight: 500;
   margin-left: 10px;
 }
