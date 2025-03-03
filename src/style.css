@@ -44,6 +44,8 @@ header {
 
 .search-form-button:hover {
   cursor: pointer;
+  transform: scale(1.1);
+  transition: transform 0.4s;
   color: white;
   background-color: #e2a218;
 }
@@ -106,7 +108,8 @@ main {
 
 .weather-forecast-icon {
   text-align: center;
-  font-size: 48px;
+  font-size: 43px;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 
