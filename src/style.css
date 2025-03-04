@@ -1,6 +1,8 @@
 body {
-  background-color: #f3eef8;
+  background: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
   font-family: "Rubik", serif;
+  background-size: contain;
+  height: 100vh;
 }
 
 a {
@@ -11,7 +13,7 @@ a {
   background-color: white;
   max-width: 600px;
   margin: 45px auto;
-  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  box-shadow: 0 30px 50px rgba(74, 52, 125, 0.08);
   border-radius: 15px;
   padding: 30px;
 }
@@ -22,7 +24,7 @@ header {
 }
 
 .search-form-input {
-  background-color: #fdd57f96;
+  background-color: #f7d99a96;
   border: none;
   border-radius: 7px;
   box-shadow: 0px 10px 10px rgba(190, 177, 219, 0.08);
@@ -105,6 +107,7 @@ main {
   text-align: center;
   color: #7851a9;
   font-size: 16px;
+  font-weight: 500;
   line-height: 20px;
 }
 
